@@ -1,0 +1,43 @@
+{
+  "name": "@journey-to-code/open-extract-hashtags",
+  "version": "1.0.0",
+  "description": "Extracts Unicode hashtags and @mentions from social text.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-to-code-org/open.extract-hashtags.git"
+  },
+  "bugs": {
+    "url": "https://github.com/journey-to-code-org/open.extract-hashtags/issues"
+  },
+  "homepage": "https://github.com/journey-to-code-org/open.extract-hashtags#readme",
+  "keywords": [
+    "hashtags",
+    "mentions",
+    "social",
+    "text"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
